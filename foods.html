@@ -15,15 +15,22 @@
       </table>
   </section>
 
-  <h5>Manage Foods</h5>
-  <form>
-      Name <br>
-      <input type="text" name="food-name" class="input-box">
-      <br>
-      Calories <br>
-      <input type="text" name="food-calories" class="input-box">
-      <button type="button" id="add-food">Add Food</button>
-  </form>
+  <div class="add-food">
+      <h2 class="food-heading heading">Add a New Food</h2>
+      <form>
+          <div class="form-food-name">
+              <label class="name-label" >Food Name:
+                  <input class="name-input">
+              </label>
+          </div>
+          <div class="form-food-calorie">
+              <label class="calorie-label">Calorie Count:
+                  <input class="calorie-input">
+              </label>
+          </div>
+          <input type="submit" class="add-food-btn btn" value="Add Food">
+      </form>
+  </div>
   <script src="main.bundle.js"></script>
 </body>
 </html>
