@@ -20,12 +20,12 @@
       <form class="form-food">
           <div class="form-food-name">
               <label class="name-label" >Food Name:
-                  <input class="name-input" type="text" required oninvalid="this.setCustomValidity('Please enter a food name')">
+                  <input class="name-input" type="text" required oninvalid="this.setCustomValidity('Please enter a food name')" onchange="this.setCustomValidity('')">
               </label>
           </div>
           <div class="form-food-calorie">
               <label class="calorie-label">Calorie Count:
-                  <input class="calorie-input" type="text" required oninvalid="this.setCustomValidity('Please enter a calorie amount')">
+                  <input class="calorie-input" type="text" required oninvalid="this.setCustomValidity('Please enter a calorie amount')" onchange="this.setCustomValidity('')">
               </label>
           </div>
           <input type="submit" class="add-food-btn btn" value="Add Food">
