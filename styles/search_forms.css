@@ -1,5 +1,5 @@
 input[type=text]#filterInput, #filterInput {
-    width: 130px;
+    width: 200px;
     height: 40px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -15,5 +15,5 @@ input[type=text]#filterInput, #filterInput {
 }
 
 input[type=text]:focus#filterInput, #filterInput:focus {
-    width: 30%;
+    width: 50%;
 }
