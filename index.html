@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Quantified Self - Diary</title>
+    <link rel="stylesheet" type="text/css" href="styles/buttons_and_links.css">
+    <link rel="stylesheet" type="text/css" href="styles/search_forms.css">
 </head>
 <body>
   <h2>Diary</h2>
@@ -88,7 +90,14 @@
     <button class="add-foods-to-snack">Add to Snack</button>
   </section>
   <h3>Foods</h3>
+  <form action="/foods.html">
+      <input type="submit" value="Create New" class="create-new-food">
+  </form>
+  <br>
   <section class="main-foods">
+      Search by Name:
+      <input id="filterInput" value="Search by Name"> <br>
+
       <table class="all-foods">
           <tr>
               <th></th>
