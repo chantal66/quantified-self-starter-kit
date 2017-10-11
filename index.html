@@ -5,6 +5,7 @@
   <title>Quantified Self - Diary</title>
     <link rel="stylesheet" type="text/css" href="styles/buttons_and_links.css">
     <link rel="stylesheet" type="text/css" href="styles/search_forms.css">
+    <link rel="stylesheet" type="text/css" href="styles/layout.css">
 </head>
 <body>
   <h2>Diary</h2>
@@ -16,16 +17,19 @@
               <th></th>
               <th>Name</th>
               <th>Calories</th>
+              <th></th>
           </tr>
           <tr>
               <th></th>
               <th>Total Calories</th>
               <td class="sum"></td>
+              <td></td>
           </tr>
           <tr>
               <th></th>
               <th>Remaining Calories</th>
               <td>Number placeholder</td>
+              <td></td>
           </tr>
       </table>
       <table class="lunch">
@@ -34,16 +38,19 @@
               <th></th>
               <th>Name</th>
               <th>Calories</th>
+              <th></th>
           </tr>
           <tr>
               <th></th>
               <th>Total Calories</th>
               <td class="sum"></td>
+              <td></td>
           </tr>
           <tr>
               <th></th>
               <th>Remaining Calories</th>
               <td>Number placeholder</td>
+              <td></td>
           </tr>
       </table>
       <table class="dinner">
@@ -52,16 +59,19 @@
               <th></th>
               <th>Name</th>
               <th>Calories</th>
+              <th></th>
           </tr>
           <tr>
               <th></th>
               <th>Total Calories</th>
               <td class="sum"></td>
+              <td></td>
           </tr>
           <tr>
               <th></th>
               <th>Remaining Calories</th>
               <td>Number placeholder</td>
+              <td></td>
           </tr>
       </table>
       <table class="snack">
@@ -70,16 +80,19 @@
               <th></th>
               <th>Name</th>
               <th>Calories</th>
+              <th></th>
           </tr>
           <tr>
               <th></th>
               <th>Total Calories</th>
               <td class="sum"></td>
+              <td></td>
           </tr>
           <tr>
               <th></th>
               <th>Remaining Calories</th>
               <td>Number placeholder</td>
+              <td></td>
           </tr>
       </table>
   </section>
@@ -90,19 +103,22 @@
     <button class="add-foods-to-snack">Add to Snack</button>
   </section>
   <h3>Foods</h3>
-  <form action="/foods.html">
-      <input type="submit" value="Create New" class="create-new-food">
-  </form>
+  <div class="form-button-container">
+      <form class="form" action="/foods.html">
+          <input type="submit" value="Create New" class="create-new-food">
+      </form>
+  </div>
   <br>
   <section class="main-foods">
-      Search by Name:
-      <input id="filterInput" value="Search by Name"> <br>
+      <h2>Search by Name   <input id="filterInput" value="Search by Name"></h2>
+       <br>
 
       <table class="all-foods">
           <tr>
               <th></th>
               <th>Name</th>
               <th>Calories</th>
+              <th></th>
           </tr>
       </table>
   </section>
