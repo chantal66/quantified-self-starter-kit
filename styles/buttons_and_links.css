@@ -1,3 +1,5 @@
+/* Meal Buttons */
+
 .create-new-food, .add-food-btn {
     box-shadow: rgb(240, 247, 250) 0px 1px 0px 0px;
     background: linear-gradient(rgb(51, 189, 239) 5%, rgb(1, 154, 210) 100%) rgb(51, 189, 239);
@@ -76,3 +78,27 @@
     text-decoration: none;
     text-shadow: rgb(178, 62, 53) 0px 1px 0px;
 }
+
+/* create new button */
+
+
+.add-foods-to-meals {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.add-foods-to-breakfast, .add-foods-to-lunch, .add-foods-to-dinner, .add-foods-to-snack{
+    margin: 0 auto;
+}
+
+.form-button-container, .main-foods, .add-food {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+}
+
+.main-foods h2 {
+    color: white;
+    font-size: 18px;
+}
+
