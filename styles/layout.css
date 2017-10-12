@@ -28,7 +28,7 @@ h4{
 
 /* tables */
 
-.breakfast, .lunch, .dinner, .snack, .all-foods {
+.breakfast, .lunch, .dinner, .snack, .all-foods, .total {
     background: white;
     border-radius:3px;
     border-collapse: collapse;
