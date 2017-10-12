@@ -1,0 +1,104 @@
+/* Meal Buttons */
+
+.create-new-food, .add-food-btn {
+    box-shadow: rgb(240, 247, 250) 0px 1px 0px 0px;
+    background: linear-gradient(rgb(51, 189, 239) 5%, rgb(1, 154, 210) 100%) rgb(51, 189, 239);
+    border-radius: 6px;
+    border: 1px solid rgb(5, 127, 208);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: rgb(91, 97, 120) 0px -1px 0px;
+}
+
+.add-foods-to-breakfast {
+    box-shadow: rgb(225, 132, 243) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(193, 35, 222) 5%, rgb(162, 13, 189) 100%) rgb(193, 35, 222);
+    border-radius: 6px;
+    border: 1px solid rgb(165, 17, 192);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: rgb(155, 20, 179) 0px 1px 0px;
+}
+.add-foods-to-lunch {
+    box-shadow: rgb(251, 175, 227) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(255, 91, 176) 5%, rgb(239, 2, 125) 100%) rgb(255, 91, 176);
+    border-radius: 6px;
+    border: 1px solid rgb(238, 30, 181);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: rgb(199, 0, 103) 0px 1px 0px;
+}
+
+.add-foods-to-dinner {
+    box-shadow: rgb(245, 151, 142) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(242, 69, 55) 5%, rgb(198, 45, 31) 100%) rgb(242, 69, 55);
+    border-radius: 6px;
+    border: 1px solid rgb(208, 39, 24);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: rgb(129, 14, 5) 0px 1px 0px;
+}
+
+.add-foods-to-snack {
+    box-shadow: rgb(242, 156, 147) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(254, 26, 0) 5%, rgb(206, 1, 0) 100%) rgb(254, 26, 0);
+    border-radius: 6px;
+    border: 1px solid rgb(216, 53, 38);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: rgb(178, 62, 53) 0px 1px 0px;
+}
+
+/* create new button */
+
+
+.add-foods-to-meals {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.add-foods-to-breakfast, .add-foods-to-lunch, .add-foods-to-dinner, .add-foods-to-snack{
+    margin: 0 auto;
+}
+
+.form-button-container, .main-foods, .add-food {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+}
+
+.main-foods h2 {
+    color: white;
+    font-size: 18px;
+}
+

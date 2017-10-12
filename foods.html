@@ -3,20 +3,27 @@
 <head>
   <meta charset="utf-8">
   <title>Quantified Self - Manage Foods</title>
+  <link rel="stylesheet" type="text/css" href="styles/buttons_and_links.css">
+  <link rel="stylesheet" type="text/css" href="styles/search_forms.css">
+  <link rel="stylesheet" type="text/css" href="styles/layout.css">
 </head>
 <body>
 
   <section class="main-foods">
-      <input id="searchInput" value="Type To Filter">
+      <h2>Filter by Name  <input id="filterInput" type="text" value="Filter by Name"></h2>
+
       <table class="all-foods">
           <tr>
+              <th></th> <!-- placeholder to allow the table to have another column on the meals page -->
               <th>Name</th>
               <th>Calories</th>
+              <th></th>
           </tr>
       </table>
   </section>
 
   <div class="add-food">
+      <br>
       <h2 class="food-heading heading">Add a New Food</h2>
       <form class="form-food">
           <div class="form-food-name">
@@ -29,7 +36,7 @@
                   <input class="calorie-input" type="text" required oninvalid="this.setCustomValidity('Please enter a calorie amount')" onchange="this.setCustomValidity('')">
               </label>
           </div>
-          <input type="submit" class="add-food-btn btn" value="Add Food">
+          <input type="submit" class="add-food-btn" value="Add Food">
       </form>
   </div>
   <script src="main.bundle.js"></script>
