@@ -160,3 +160,23 @@ td.text-right {
 input[type=checkbox] {
     zoom: 1.5;
 }
+
+/* Badge*/
+
+.badge1 {
+    position:relative;
+}
+.badge1[data-badge]:after {
+    content:attr(data-badge);
+    position:absolute;
+    top: 10px;
+    right:-10px;
+    font-size:.7em;
+    background: #feff22;
+    color: #3b424f;
+    width:40px;height:40px;
+    text-align:center;
+    line-height:38px;
+    border-radius:50%;
+    box-shadow:0 0 1px #333;
+}
