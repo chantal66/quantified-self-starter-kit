@@ -10,13 +10,13 @@
 <body>
   <h2>Diary</h2>
   <section class="diary-foods">
-      <table class="breakfast">
+      <table class="meal breakfast unsorted" data-name="breakfast">
           <h3 class="badge1" data-badge="400">Breakfast</h3>
           <tr class="breakfast-foods">
               <!-- empty tag to make space for the empty checkbox tag of a food row -->
               <th></th>
               <th>Name</th>
-              <th>Calories</th>
+              <th class="calorie-header-breakfast">Calories</th>
               <th></th>
           </tr>
           <tr>
@@ -28,16 +28,16 @@
           <tr>
               <th></th>
               <th>Remaining Calories</th>
-              <td>Number placeholder</td>
+              <td class="breakfast-remaining-calories remaining-calories green"></td>
               <td></td>
           </tr>
       </table>
-      <table class="lunch">
+      <table class="meal lunch unsorted" data-name="lunch">
           <h3 class="badge1" data-badge="600">Lunch</h3>
           <tr class="lunch-foods">
               <th></th>
               <th>Name</th>
-              <th>Calories</th>
+              <th class="calorie-header-lunch">Calories</th>
               <th></th>
           </tr>
           <tr>
@@ -49,16 +49,16 @@
           <tr>
               <th></th>
               <th>Remaining Calories</th>
-              <td>Number placeholder</td>
+              <td class="lunch-remaining-calories remaining-calories green"></td>
               <td></td>
           </tr>
       </table>
-      <table class="dinner">
+      <table class="meal dinner unsorted" data-name="dinner">
           <h3 class="badge1" data-badge="800">Dinner</h3>
           <tr class="dinner-foods">
               <th></th>
               <th>Name</th>
-              <th>Calories</th>
+              <th class="calorie-header-dinner">Calories</th>
               <th></th>
           </tr>
           <tr>
@@ -70,16 +70,16 @@
           <tr>
               <th></th>
               <th>Remaining Calories</th>
-              <td>Number placeholder</td>
+              <td class="dinner-remaining-calories remaining-calories green"></td>
               <td></td>
           </tr>
       </table>
-      <table class="snack">
+      <table class="meal snack unsorted" data-name="snack">
           <h3 class="badge1" data-badge="200">Snack</h3>
           <tr class="snack-foods">
               <th></th>
               <th>Name</th>
-              <th>Calories</th>
+              <th class="calorie-header-snack">Calories</th>
               <th></th>
           </tr>
           <tr>
@@ -91,7 +91,7 @@
           <tr>
               <th></th>
               <th>Remaining Calories</th>
-              <td>Number placeholder</td>
+              <td class="snack-remaining-calories remaining-calories green"></td>
               <td></td>
           </tr>
       </table>
@@ -104,15 +104,21 @@
               <th></th>
           </tr>
           <tr>
+            <th></th>
+            <th>Goal Calories</th>
+            <td class="goal-calories">2000</td>
+            <td></td>
+          </tr>
+          <tr>
               <th></th>
               <th>Total Calories Consumed</th>
-              <td class="sum"></td>
+              <td class="total-calories"></td>
               <td></td>
           </tr>
           <tr>
               <th></th>
-              <th>Remaining Calories</th>
-              <td>Number placeholder</td>
+              <th class="remaining-calories">Remaining Calories</th>
+              <td class="total-remaining-calories remaining-calories green"></td>
               <td></td>
           </tr>
       </table>
