@@ -1,3 +1,17 @@
+/* Accessibility*/
+
+button:focus {
+    outline: 5px dashed yellow;
+}
+
+input[type='submit']:focus {
+    outline: 5px dashed yellow;
+}
+
+a:focus {
+    outline: 5px dashed yellow;
+}
+
 /* Meal Buttons */
 
 .create-new-food, .add-food-btn {
