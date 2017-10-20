@@ -1,3 +1,10 @@
+/* Accessibility*/
+
+button.focus {
+    outline: 5px dashed red;
+}
+
+
 /* Meal Buttons */
 
 .create-new-food, .add-food-btn {
