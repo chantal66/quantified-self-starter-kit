@@ -2,7 +2,7 @@
 
 This is the Frontend of a meal tracking tool.
 
-You can find the Backend [here](https://github.com/chantal66/quantified-self-starter-kit)
+You can find the Backend [here](https://github.com/chantal66/Quantified-Self-API-JS)
 
 # Tech Stack 
     - Vanilla JavaScript
